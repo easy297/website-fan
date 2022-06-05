@@ -1,0 +1,87 @@
+.container{
+width: 80%;
+margin: 0 auto;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Odibee Sans', cursive;
+}
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box ;
+}
+.navbar{
+font-size: 19px;
+background-color:#765B11;
+overflow: hidden;
+}
+.navbar a{
+	display: block;
+	color: white;
+	padding: 20px 60px;
+	text-decoration: none;
+float: left;
+}
+.navbar a:hover{
+	background-color: black;
+	color: white;
+}
+header{
+	font-size: 25px;
+	background-image:url(as.jpg);	 
+	height: 600px;
+	background-size: cover;
+	color: whitesmoke ;
+	padding-top: 350px;
+	padding-left: 600px ;
+}
+.name:hover{
+	color: #C6C5BE;
+}.movie{
+	text-decoration: none;
+	display: block;
+	color: white;
+	background-color:#765B11;
+	width: 200px;
+	text-align: center;
+	padding: 10px;
+	margin-top:25px ;
+	border-radius: 15px;
+
+}
+.movie:hover{
+	background-color:#C6C5BE;
+	color: snow;
+}
+.footer{
+	background-color: #765B11;
+	padding: 15px;
+	color: white;
+	text-align: center;
+}
+.row{
+	display: flex;
+}
+.second{
+	color: whitesmoke;
+	flex: 30%;
+	padding: 20px;
+	background-color: #B4ABAB ;
+}
+.youtube{
+	color: ghostwhite;
+	flex: 70%;
+	padding: 20px;
+	background-color: #909497;
+}
+.MAR{
+	width: 400px;
+	height: 100%;
+	padding: 10px;
+
+}
+.MAR img{
+	width: 100%;
+}
